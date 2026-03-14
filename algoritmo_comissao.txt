@@ -1,0 +1,26 @@
+Algoritmo <Comissão>
+
+var
+CARACTERE: nome; 
+REAL: salarioFixo, valorVendas, comissao, salarioFinal;
+
+Inicio
+
+Escreva("Escreva o nome do vendedor");
+Leia(nome);
+
+Escreva("Escreva o seu salário fixo");
+Leia(salarioFixo);
+
+Escreva("Escreva o valor total das vendas");
+Leia(valorVendas);
+
+comissao <- 0.15 * valorVendas;
+
+salarioFinal <- comissao + salarioFixo;
+
+Escreva("Vendedor: ", nome)
+Escreva("Salário fixo: R$ ", salarioFixo)
+Escreva("Salário final (fixo + comissão de 15%): R$ ", salarioFinal)
+
+Fim
