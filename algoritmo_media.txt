@@ -1,0 +1,22 @@
+Algoritmo <Média Aritmética>
+
+Var
+
+CARACTERE: nome;
+REAL: notaUm, notaDois, notaTres, media;
+
+Escreva("Insira o nome do aluno");
+Leia(nome);
+
+Escreva("Insira a nota obtida na primeira prova");
+Leia(notaUm);
+
+Escreva("Insira a nota obtida na segunda prova");
+Leia(notaDois);
+
+Escreva("Insira a nota obtida na terceira prova");
+Leia(notaTres);
+
+media <- (notaUm + notaDois + notaTres) / 3
+
+Escreva("O nome do Aluno e sua média obtida são:"+ nome "," + media);
