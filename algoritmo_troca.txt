@@ -1,0 +1,20 @@
+Algoritmo <Troca de Valores>
+
+var;
+REAL: varA, varB, temp;
+
+Inicio
+
+Escreva("Digite o valor da váriavel A");
+Leia(varA);
+
+Escreva("Digite o valor da váriavel B");
+Leia(varB);
+
+temp <- varA;
+varA <- varB;
+varB <- temp;
+
+Escreva("O valor da váriavel A é:"+ varA , "O valor da váriavel B é:" + varB); 
+
+Fim
