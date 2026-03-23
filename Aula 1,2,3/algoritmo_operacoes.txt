@@ -1,0 +1,26 @@
+Algoritmo <operações matematicas>
+
+Inicio
+
+var
+numero1, numero2, resultado: real
+
+Escreva("Digite o primeiro número:")
+Leia(numero1)
+
+Escreva("Digite o segundo número:")
+Leia(numero2)
+
+resultado <- numero1 + numero2
+Escreva("A soma dos números é: ", resultado)
+
+resultado <- numero1 - numero2
+Escreva("A subtração dos números é: ", resultado)
+
+resultado <- numero1 * numero2
+Escreva("A multiplicação dos números é: ", resultado)
+
+resultado <- numero1 / numero2
+Escreva("A divisão dos números é: ", resultado)
+
+Fim

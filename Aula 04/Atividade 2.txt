@@ -1,0 +1,17 @@
+Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em celsius.
+
+Algoritmo <Conversão de Temperatura>
+
+var
+temperaturaF, temperaturaC: real
+
+Inicio
+
+Escreva("Insira a temperatura em Celsius (ºC): ")
+Leia(temperaturaC)
+
+temperaturaF <-(9 * temperaturaC + 160) / 5
+
+Escreva("A temperatura informada, convertida de celsius para fahrenheit (°F) é:", temperaturaF,"(°F)")
+
+Fimalgoritmo

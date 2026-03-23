@@ -1,0 +1,17 @@
+Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês. ● Considere fixo o juro da poupança em 0,70% a. m.
+
+Algoritmo <Rendimento>
+
+var
+valorD, resultado: real
+
+Inicio
+
+Escreva("Qual o saldo na poupança? ")
+Leia(valorD)
+
+resultado <-(valorD * 0.007) + valorD
+
+Escreva("O valor total apos rendimento de um mês é: R$", resultado)
+
+Fimalgoritmo 
