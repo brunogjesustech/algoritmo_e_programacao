@@ -2,43 +2,46 @@
 
 Algoritmo <Tabuada>
 
-programa
-{
-	funcao inicio()
-	{
-		inteiro N, T, contador
-		real R
-		caracter operadorO
+Var
+   N, T, CONT: inteiro
+   R: real
+   operadorO: caractere
 
-		escreva("Quer ver a tabuada de qual número? ")
-		leia(N)
+Inicio
 
-		escreva("Qual número quer que a tabuada pare? ")
-		leia(T)
+   CONT <- 1
 
-		escreva("Insira qual tabuada deseja calcular - (+) Soma, (-) Subtração, (*) Multiplicação, (/) Divisão: ")
-		leia(operadorO)
+   Escreva("Quer ver a tabuada de qual número? ")
+   Leia(N)
 
-		para (contador = 1; contador <= T; contador++)
-		{
-			se (operadorO == '+')
-			{
-				R = N + contador
-			}
-			senao se (operadorO == '-')
-			{
-				R = N - contador
-			}
-			senao se (operadorO == '*')
-			{
-				R = N * contador
-			}
-			senao
-			{
-				R = N / contador
-			}
+   Escreva("Qual número quer que a tabuada pare? ")
+   Leia(T)
 
-			escreva(N, " ", operadorO, " ", contador, " = ", R, "\n")
-		}
-	}
-}
+   Escreva("Insira qual tabuada deseja calcular - (+) Soma, (-) Subtração, (*) Multiplicação, (/) Divisão: ")
+   Leia(operadorO)
+
+   Repita
+
+      Se (operadorO = "+") entao
+         R <- N + CONT
+      Senao
+         Se (operadorO = "-") entao
+            R <- N - CONT
+         Senao
+            Se (operadorO = "*") entao
+               R <- N * CONT
+            Senao
+               Se (operadorO = "/") entao
+                  R <- N / CONT
+               FimSe
+            FimSe
+         FimSe
+      FimSe
+
+      Escreval(N, " ", operadorO, " ", CONT, " = ", R)
+
+      CONT <- CONT + 1
+
+   Ate (CONT > T)
+
+Fimalgoritmo
