@@ -1,4 +1,4 @@
-// Escreva um algoritmo e um fluxograma que receba dois números e exiba o resultado da sua soma.
+package AlgoritmoInicial;// Escreva um algoritmo e um fluxograma que receba dois números e exiba o resultado da sua soma.
 
 import java.util.Scanner;
 

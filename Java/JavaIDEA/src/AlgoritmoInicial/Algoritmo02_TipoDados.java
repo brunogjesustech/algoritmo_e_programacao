@@ -1,4 +1,4 @@
-//Escreva um Algoritmo que receba 4 valores em variáveis diferentes, contendo INTEIRO, REAL, CARACTERE e BOOLEANO e mostre na tela os valores atribuídos às variáveis
+package AlgoritmoInicial;//Escreva um Algoritmo que receba 4 valores em variáveis diferentes, contendo INTEIRO, REAL, CARACTERE e BOOLEANO e mostre na tela os valores atribuídos às variáveis
 
 import java.util.Scanner;
 

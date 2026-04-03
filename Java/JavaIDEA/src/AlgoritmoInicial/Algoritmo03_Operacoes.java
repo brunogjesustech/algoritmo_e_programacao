@@ -1,4 +1,4 @@
-//Escreva um Algoritmo para demonstrar as operações matemáticas básicas e mostre o resultado para cada operador.
+package AlgoritmoInicial;//Escreva um Algoritmo para demonstrar as operações matemáticas básicas e mostre o resultado para cada operador.
 
 import java.util.Scanner;
 

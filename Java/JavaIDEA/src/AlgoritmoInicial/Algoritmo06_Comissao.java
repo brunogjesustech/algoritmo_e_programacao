@@ -1,4 +1,4 @@
-// Leia: o nome de um vendedor, o seu salário fixo, o valor total de vendas dele no mês e calcule 15% de comissão das vendas. Exibir no final o nome, o salário fixo e salário total mais comissão.
+package AlgoritmoInicial;// Leia: o nome de um vendedor, o seu salário fixo, o valor total de vendas dele no mês e calcule 15% de comissão das vendas. Exibir no final o nome, o salário fixo e salário total mais comissão.
 
 import java.util.Scanner;
 
