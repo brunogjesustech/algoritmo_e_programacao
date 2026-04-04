@@ -14,7 +14,7 @@ public class AlgoritmoLista09 {
         double valorCarro, desconto, valorFinal;
         String resposta;
 
-        //Zerando valores
+        // Zerando valores
 
         resposta = "Sim";
         carrosAte2010 = 0;

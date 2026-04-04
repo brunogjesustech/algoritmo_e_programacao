@@ -42,7 +42,7 @@ public class AlgoritmoLista10 {
             else {
                 resultado = numeral / aux;
             }
-
+            
             System.out.println(numeral + " " + operador + " " + aux + " = " + resultado);
 
         }
