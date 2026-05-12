@@ -19,6 +19,7 @@ public class Main {
         System.out.print("Digite a segunda nota do aluno: ");
         al.setNota2(sc.nextDouble());
 
+
         do {
             System.out.println();
             System.out.println("Menu de Escolha");
